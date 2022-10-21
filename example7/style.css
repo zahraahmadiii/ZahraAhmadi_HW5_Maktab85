@@ -1,0 +1,52 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(246, 170, 248),rgb(243, 109, 248));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cart{
+    width: 22rem;
+    height: 22rem;
+    background-color: rgb(192, 97, 230);
+    border-radius: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.girl{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 4px solid white;
+
+}
+.front{
+    color: rgb(216, 182, 238);
+    padding-top: 1rem;
+
+}
+.myname{
+    color: rgb(250, 241, 250);
+    padding-top: 0.25rem;
+}
+.myinfo{
+    color: rgb(216, 182, 238);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+}
+.skills{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}

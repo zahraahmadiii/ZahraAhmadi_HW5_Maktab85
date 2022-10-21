@@ -1,0 +1,147 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background: url(images/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.head{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(223, 221, 221);
+    border: 1px solid rgb(189, 187, 187);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.init{
+    width: 30rem;
+    height: 2.8vh;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+  
+}
+
+#red{
+    color: rgb(209, 28, 28);
+}
+#yellow{
+    color: rgb(241, 224, 64);
+}
+#green{
+    color: rgb(32, 158, 30);
+}
+.dotes{
+   font-size: 0.75rem;
+   margin: 0;
+   
+}
+
+#site{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 2px;
+    width: 25rem;
+    height: 2.6vh;
+    border: none;
+    margin-right:40px;
+
+}
+.fa-plus{
+    margin: 0;
+    color: rgb(170, 169, 169);
+}
+/* #toplock{
+    color: rgb(78, 76, 76);
+    font-size: 12px;
+    padding-top: 1vh;
+  
+} */
+#repeat{
+    color: rgb(122, 121, 121);
+    font-size: 10px;
+    margin: 0;
+    padding-top: 1vh;
+}
+
+.card{
+    width: 17rem;
+    height: 22rem;
+    background:linear-gradient(#7866e2,#9f4fd1);
+    margin-top: 10rem;
+    border-radius: 5px;
+     display: flex;
+     flex-direction: column;
+  
+}
+img{
+    border-radius: 55%;
+    height: 3rem;
+    margin-top: 2rem;
+}
+.Login{
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+.userpass{
+    background-color: transparent; 
+    border: none;
+    width: 12rem;
+    color: white;
+    padding-top: 1rem;
+    outline: none;
+}
+
+.check{
+    color: white;
+    font-size: smaller;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 14rem;
+}
+.btn{
+    width: 4.8rem;
+    height: 1.8rem;
+    border-radius: 1rem;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    
+}
+.forgetpass{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 2rem;
+    
+}
+label{
+    color: rgb(255, 255, 255);
+}
+.user{
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+}
+.password{
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+}
+.fa{
+    padding-right: 0.5rem;
+}
+
+
